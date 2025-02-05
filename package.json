@@ -1,0 +1,40 @@
+{
+  "name": "counter-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nx next:dev",
+    "build": "nx next:build",
+    "start": "nx next:start",
+    "lint": "next lint",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.19.0",
+    "@nx/eslint-plugin": "^20.4.0",
+    "eslint": "^9.19.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@nx/eslint": "20.3.3",
+    "@nx/next": "20.3.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "nx": "20.3.3",
+    "postcss": "^8",
+    "prettier": "3.4.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "nx": {},
+  "lint-staged": {
+    "*.{js,css,md,ts,tsx}": "prettier --write"
+  }
+}
